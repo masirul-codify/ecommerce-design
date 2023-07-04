@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <title>Design 4</title>
+    <title>Design 2</title>
     <meta content="" name="description">
     <meta content="" name="keywords">
     <!-- Favicons -->
@@ -18,13 +18,9 @@
         @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
     </style>
     <!-- Vendor CSS Files -->
-    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
     <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
     <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-    <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
-    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
     <!-- Template Main CSS File -->
     <link href="assets/css/style.css" rel="stylesheet">
     <!-- =======================================================
@@ -40,9 +36,10 @@
     <header id="header" class="fixed-top  p-3  bg-white">
       <div class="container-fluid d-flex align-items-center justify-content-lg-start">
           <!-- Uncomment below if you prefer to use an image logo -->
-          <a href="index.html" class="navbar-brand logo me-start ">  <img src="lg1.png" loading="lazy" alt="" class="img-fluid"></a>
-          <a href="index.html" class="navbar-brand logo me-start ">  <img src="lg2.png" loading="lazy" alt="" class="img-fluid"></a>
-          <nav id="navbar" class="navbar text-darkblue order-lg-first order-lg-0">
+            <nav id="navbar" class="navbar order-last order-lg-0  col-lg-5 navbar navbar-expand-lg navbar-light rounded-right"
+            style="background-image: linear-gradient(to bottom, #41768c, #041f43);">
+            <a class="navbar-brand" href="#"><img src="lg1.png" alt=""></a>
+            <a class="navbar-brand" href="#"><img src="lg2.png" alt=""></a>
               <ul>
                   <li><a class="nav-link  " href="#hero">A Propos</a>
                 </li>
@@ -50,75 +47,28 @@
               </li> 
               
               </ul> 
-              <i class="bi bi-list mobile-nav-toggle"></i> 
          </nav>
               <!-- Input group -->
-              <div class="d-flex justify-content-center me-auto mx-3">
+              <nav id="navbar" class="navbar order-last order-lg-0 col-lg-7 d-flex justify-content-center me-auto mx-3"> 
                   <div class="input-group w-auto">
-                      <input
+                      <input 
                       type="text"
-                      class="form-control"
+                      class="form-control rounded-5 border-secondary my-2 my-sm-0 px-4"
                       placeholder="nom d'Enterprise ou dirigeant"
                       aria-label="nom d'Enterprise ou dirigeant"
                       aria-describedby="button-addon1"
                       />
-                      <button class="btn btn-primary" type="button" id="button-addon1" data-mdb-ripple-color="dark">
+                      <button style="left: -40px;" class="btn btn-primary btn-lg text-white rounded-pill my-2 my-sm-0 px-4" type="button" id="button-addon1" data-mdb-ripple-color="dark">
                           <i class="bi-search text-white"></i>
                       </button>
-                  </div>
-              </div> 
-              <a href="index.html" class="navbar-brand">  <img src="lg1.png" loading="lazy" alt="" class="img-fluid"></a> 
+                    </form>
+                    <a class="navbar-brand" href="#"><img src="lg1.png" alt="" class="ml-5"></a>
+                    
+                    <i class="bi bi-list mobile-nav-toggle"></i> 
+                </nav>
       </div>
   </header>
 
-
-
-    <!-- navbar -->
-    <!-- <section>  
-     <div class="container-fluid mt-lg-5 mt-0">
-        <div class="row">
-            <nav class="col-lg-5 navbar navbar-expand-lg navbar-light rounded-right"
-                style="background-image: linear-gradient(to bottom, #41768c, #041f43);">
-                <a class="navbar-brand" href="#"><img src="lg1.png" alt=""></a>
-                <a class="navbar-brand" href="#"><img src="lg2.png" alt=""></a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse"
-                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav mr-auto">
-                        <li class="nav-item">
-                            <a class="nav-link font-weight-bold text-white" href="#">A Propos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link font-weight-bold text-white">Blog</a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
-            <nav
-                class="col-lg-7 d-none d-lg-flex justify-content-end navbar navbar-expand-lg navbar-light bg-transparent">                        
-                <!-- Input group -->
-                <!-- <div class="d-flex justify-content-center mx-3">
-                    <div class="input-group w-auto">
-                        <input
-                        type="text"
-                        class="form-control"
-                        placeholder="nom d'Enterprise ou dirigeant"
-                        aria-label="nom d'Enterprise ou dirigeant"
-                        aria-describedby="button-addon1"
-                        />
-                        <button class="btn btn-primary" type="button" id="button-addon1" data-mdb-ripple-color="dark">
-                            <i class="ti-search text-white"></i>
-                        </button>
-                    </div>
-                </div> 
-                <a class="navbar-brand" href="#"><img src="lg1.png" alt="" class="ml-5"></a>
-            </nav>
-        </div>  
-    </div>
-    </section> -->
     <!-- navbar end -->
 
   <!--  main -->
@@ -130,23 +80,23 @@
                     <img src="assets/img/feature.jpg" class="img-fluid" alt="img">
                 </div>
                 <div class="col-12 col-md-6 col-lg-6">
-                    <div class=" mt-5 text-justify">
-                        <h2 class="text-justify text-darkblue"> <span class="text-primary">Trouvez</span> les Informations legales des enterprises en un clic.</h2>
-                        <h5 class="text-justify  text-black"> Decouvrez less details essentials sur les Enterprises via leur Numero SIREN, Nom d'Enterprise ou Dirigeant</h5>
+                    <div class="w-75 mt-5 text-justify">
+                        <h1 class="text-justify text-darkblue fw-bold"> <span class="text-primary">Trouvez</span> les Informations legales des enterprises en un clic.</h1>
+                        <h2 class="text-justify  text-black fw-light"> Decouvrez less details essentials sur les Enterprises via leur Numero SIREN, Nom d'Enterprise ou Dirigeant</h2>
 
                     </div>  
                         
                         <!-- Input group -->
-                        <div class="d-flex justify-content-center my-3">
+                        <div class="w-auto d-flex justify-content-center my-3">
                             <div class="input-group w-auto">
                                 <input
                                 type="text"
-                                class="form-control"
+                                class="form-control rounded-5"
                                 placeholder="nom d'Enterprise ou dirigeant"
                                 aria-label="nom d'Enterprise ou dirigeant"
                                 aria-describedby="button-addon1"
                                 />
-                                <button class="btn btn-primary" type="button" id="button-addon1" data-mdb-ripple-color="dark">
+                                <button style="left: -40px;"   class="btn btn-primary rounded-5" type="button" id="button-addon1" data-mdb-ripple-color="dark">
                                     <i class="bi-search text-white"></i>
                                 </button>
                             </div>
@@ -154,12 +104,12 @@
                                         
                         <!-- social links -->
                         <div class="text-center my-5">
-                            <a href="web.facebook.com" class="mx-2"> <i class="bi-facebook rounded-circle  social"></i> </a>
-                            <a href="instagram.com" class="mx-2"> <i class="bi-instagram rounded-circle social"></i> </a> 
-                           <a href="linkedin.com" class="mx-2"><i class="bi-linkedin rounded-circle social"></i> </a> 
-                            <a href="twitter.com" class="mx-2"><i class="bi-twitter rounded-circle social" ></i> </a>
+                            <a href="web.facebook.com" class="mx-1"> <i class="bi-facebook rounded-circle  social"></i> </a>
+                            <a href="instagram.com" class="mx-1"> <i class="bi-instagram rounded-circle social"></i> </a> 
+                           <a href="linkedin.com" class="mx-1"><i class="bi-linkedin rounded-circle social"></i> </a> 
+                            <a href="twitter.com" class="mx-1"><i class="bi-twitter rounded-circle social" ></i> </a>
                         </div>
-                        <h5 class="text-center text-black">www.kipoced.com</h5>
+                        <h3 class="text-center text-black">www.kipoced.com</h3>
                     </div>
                 </div>
             </div>
